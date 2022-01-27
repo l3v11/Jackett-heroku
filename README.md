@@ -10,7 +10,7 @@ heroku stack:set container
 git push heroku main --force
 ```
 
-## Deploying with Github Workflow
+### Deploying with Github Workflow
 
 1. Go to Repository Settings -> Secrets
 
