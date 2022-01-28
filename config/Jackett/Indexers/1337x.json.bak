@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.to/"
+    "value": "https://1337x.torweb.workers.dev/"
   },
   {
     "id": "cookieheader",
@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (1337x): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (1337x.proxyninja.org:443)"
   },
   {
     "id": "downloadlink",

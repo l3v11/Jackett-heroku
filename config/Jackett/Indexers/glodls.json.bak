@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "https://glodls.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "Guest=o2v2m9ng8i5evpmb2rhukv2rq5; lang=0; pass=deleted; uid=deleted"
   },
   {
     "id": "lasterror",
@@ -18,34 +18,15 @@
     "value": null
   },
   {
-    "id": "downloadlink",
-    "type": "inputselect",
-    "name": "Download link",
-    "value": "http://itorrents.org/",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "id",
     "options": {
-      "time": "created",
+      "id": "created",
       "seeders": "seeders",
-      "size": "size"
+      "size": "size",
+      "name": "title"
     }
   },
   {

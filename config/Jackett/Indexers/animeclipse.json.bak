@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "http://www.animeclipse.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "ACphpbb2__data=a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D; ACphpbb2__sid=a9e0c48b52db866d7526e7b29bd19fbe; ACphpbb2____lastvisit=1637431034"
   },
   {
     "id": "lasterror",
@@ -18,32 +18,12 @@
     "value": null
   },
   {
-    "id": "downloadlink",
-    "type": "inputselect",
-    "name": "Download link",
-    "value": "http://itorrents.org/",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "added",
     "options": {
-      "time": "created",
+      "added": "created",
       "seeders": "seeders",
       "size": "size"
     }
@@ -52,10 +32,10 @@
     "id": "orderrequestedfromsite",
     "type": "inputselect",
     "name": "Order requested from site",
-    "value": "desc",
+    "value": "DESC",
     "options": {
-      "desc": "desc",
-      "asc": "asc"
+      "DESC": "desc",
+      "ASC": "asc"
     }
   },
   {

@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "https://torrentgalaxy.to/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "PHPSESSID=0dvgvac13bj1vtp04rusa9phsc; fencekey=80aa873d1a0b49cbc31887f04090f816"
   },
   {
     "id": "lasterror",
@@ -18,34 +18,15 @@
     "value": null
   },
   {
-    "id": "downloadlink",
-    "type": "inputselect",
-    "name": "Download link",
-    "value": "http://itorrents.org/",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "id",
     "options": {
-      "time": "created",
+      "id": "created",
       "seeders": "seeders",
-      "size": "size"
+      "size": "size",
+      "name": "title"
     }
   },
   {
@@ -57,6 +38,12 @@
       "desc": "desc",
       "asc": "asc"
     }
+  },
+  {
+    "id": "captchatext",
+    "type": "inputstring",
+    "name": "Captcha Text",
+    "value": "xrkte"
   },
   {
     "id": "tags",

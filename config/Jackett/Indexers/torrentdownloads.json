@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "https://www.torrentdownloads.pro/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "PHPSESSID=vcqemln1r8rq63331kvu7l9mh0"
   },
   {
     "id": "lasterror",
@@ -35,27 +35,6 @@
     "options": {
       "http://itorrents.org/": "iTorrents.org",
       "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "sortrequestedfromsite",
-    "type": "inputselect",
-    "name": "Sort requested from site",
-    "value": "time",
-    "options": {
-      "time": "created",
-      "seeders": "seeders",
-      "size": "size"
-    }
-  },
-  {
-    "id": "orderrequestedfromsite",
-    "type": "inputselect",
-    "name": "Order requested from site",
-    "value": "desc",
-    "options": {
-      "desc": "desc",
-      "asc": "asc"
     }
   },
   {

@@ -3,13 +3,13 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "https://ettv.proxyninja.org/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": ""
+    "value": "PHPSESSID=phtfvv087ln4ct784i4u563elg; pass=deleted; uid=deleted"
   },
   {
     "id": "lasterror",
@@ -18,34 +18,15 @@
     "value": null
   },
   {
-    "id": "downloadlink",
-    "type": "inputselect",
-    "name": "Download link",
-    "value": "http://itorrents.org/",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "id",
     "options": {
-      "time": "created",
+      "id": "created",
       "seeders": "seeders",
-      "size": "size"
+      "size": "size",
+      "name": "title"
     }
   },
   {
