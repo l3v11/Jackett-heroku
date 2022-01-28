@@ -15,7 +15,7 @@
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (erai-raws): Request to https://www.erai-raws.info/feed/?type=magnet failed (Error 522) - The tracker seems to be down.: Request to https://www.erai-raws.info/feed/?type=magnet failed (Error 522) - The tracker seems to be down."
+    "value": null
   },
   {
     "id": "enabletitledetailparsing",

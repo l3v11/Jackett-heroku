@@ -1,26 +1,24 @@
-### Deploy
-- Clone the repo
+### Deploying with CLI
+- Clone the [repo](https://github.com/l3v11/Jackett-heroku)
 - Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 ```
 cd Jackett-heroku
 heroku login
-heroku apps:create APP
-heroku stack:set container
+heroku apps:create $APP
+heroku stack:set container -a $APP
+heroku git:remote -a $APP
 git push heroku main --force
 ```
 
-### Deploying with Github Workflow
-
-1. Go to Repository Settings -> Secrets
-
-2. Add the below Required Variables one by one by clicking New Repository Secret every time.
-
-  - HEROKU_EMAIL: Heroku Account Email Id in which the above app will be deployed
-  - HEROKU_API_KEY: Your Heroku API key, get it from https://dashboard.heroku.com/account
-  - HEROKU_APP_NAME: Your Heroku app name, Name Must be unique and in **NO CAPS**
-
-4. After adding all the above Required Variables go to Github Actions tab in your repository
-
-5. Then click on Run workflow
-
+### Deploying with Workflow
+- Fork the [repo](https://github.com/l3v11/Jackett-heroku)
+- On the forked repo, go to *Settings* -> *Secrets* and click on the *New repository secret* button
+- Now enter the vars one by one with value
+1. `HEROKU_API_KEY`: Get the API Key from Heroku [Account Settings](https://dashboard.heroku.com/account)
+2. `HEROKU_EMAIL`: Email address of your Heroku Account
+3. `HEROKU_APP_NAME`: Name of your Heroku App. It must be unique on Heroku.
+- Then go to the *Actions* tab on your repo
+- Select *Deploy to Heroku* from the *All workflow* list
+- Click on *Run workflow* -> *Run workflow*
+- After that turn on the app dyno

@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://eztv.proxyninja.org/"
+    "value": "https://eztv.re/"
   },
   {
     "id": "cookieheader",

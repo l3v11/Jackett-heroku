@@ -3,19 +3,19 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://ettv.proxyninja.org/"
+    "value": "https://www.ettvcentral.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=phtfvv087ln4ct784i4u563elg; pass=deleted; uid=deleted"
+    "value": null
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": "Exception (ettv): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (www.ettvcentral.com:443)"
+    "value": null
   },
   {
     "id": "sortrequestedfromsite",

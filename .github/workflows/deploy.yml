@@ -1,4 +1,4 @@
-name: Deploy Jackett to Heroku
+name: Deploy to Heroku
 
 on: workflow_dispatch
 
@@ -10,8 +10,8 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
           heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
