@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "https://www.torlock.com/"
   },
   {
     "id": "cookieheader",
@@ -18,33 +18,13 @@
     "value": null
   },
   {
-    "id": "downloadlink",
+    "id": "sortrequestedfromsite(onlyworksforsearchwithkeywords)",
     "type": "inputselect",
-    "name": "Download link",
-    "value": "http://itorrents.org/",
+    "name": "Sort requested from site (only works for search with keywords)",
+    "value": "added",
     "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "downloadlink(fallback)",
-    "type": "inputselect",
-    "name": "Download link (fallback)",
-    "value": "magnet:",
-    "options": {
-      "http://itorrents.org/": "iTorrents.org",
-      "magnet:": "magnet"
-    }
-  },
-  {
-    "id": "sortrequestedfromsite",
-    "type": "inputselect",
-    "name": "Sort requested from site",
-    "value": "time",
-    "options": {
-      "time": "created",
-      "seeders": "seeders",
+      "added": "created",
+      "seeds": "seeders",
       "size": "size"
     }
   },

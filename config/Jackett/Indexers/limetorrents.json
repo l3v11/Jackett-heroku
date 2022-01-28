@@ -3,7 +3,7 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "https://1337x.torweb.workers.dev/"
+    "value": "https://www.limetorrents.pro/"
   },
   {
     "id": "cookieheader",
@@ -41,21 +41,11 @@
     "id": "sortrequestedfromsite",
     "type": "inputselect",
     "name": "Sort requested from site",
-    "value": "time",
+    "value": "date",
     "options": {
-      "time": "created",
-      "seeders": "seeders",
+      "date": "created",
+      "seeds": "seeders",
       "size": "size"
-    }
-  },
-  {
-    "id": "orderrequestedfromsite",
-    "type": "inputselect",
-    "name": "Order requested from site",
-    "value": "desc",
-    "options": {
-      "desc": "desc",
-      "asc": "asc"
     }
   },
   {
