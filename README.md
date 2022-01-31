@@ -4,7 +4,7 @@ Detailed instrutions have been given below; You can use the publicly deployed ap
 
 
 ### Pubicly Deployed App
-You can [Jackettrr](https://jackettrr.herokuapp.com)
+[Jackettrr](https://jackettrr.herokuapp.com)
 This is public deployment for legit uses.
 
 
