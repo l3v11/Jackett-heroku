@@ -1,0 +1,21 @@
+name: Update Jackett
+
+on:
+  schedule:
+  - cron: "0 0 10,20 * *"
+  workflow_dispatch:
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
+          usedocker: true
+          docker_heroku_process_type: web
+          stack: "container"
+          region: "eu"
