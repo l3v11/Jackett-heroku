@@ -1,3 +1,6 @@
+### Jackett on Heroku
+> Host your very own [Jackett](https://github.com/Jackett/Jackett) on Heroku
+
 ### Deploying with CLI
 - Clone the [repo](https://github.com/l3v11/Jackett-heroku)
 - Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
@@ -22,3 +25,9 @@ git push heroku main --force
 - Select *Deploy to Heroku* from the *All workflow* list
 - Click on *Run workflow* -> *Run workflow*
 - After that turn on the app dyno
+
+
+### Updating Jackett
+- Scheduled to update at 12:00 on every Sunday
+- If you don't like to update automatically, go to *Settings* -> *Actions* -> *General* on the forked repo and select *Disable Actions*
+> **Note:** For [Deploying with Workflow](https://github.com/l3v11/Jackett-heroku#deploying-with-workflow) method only
